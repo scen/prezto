@@ -11,3 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+export VISUAL=vim
+export EDITOR="$VISUAL"
