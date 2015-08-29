@@ -13,5 +13,8 @@ fi
 # Customize to your needs...
 
 alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias kdiff="git difftool -y -t Kaleidoscope"
+alias kmerge="git mergetool -y -t Kaleidoscope"
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
